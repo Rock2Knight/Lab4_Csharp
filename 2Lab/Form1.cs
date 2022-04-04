@@ -253,59 +253,6 @@ namespace _2Lab
             Gl.glTranslated(0, 0, 0.31);
             Glut.glutSolidCone(0.28, 0.259, 32, 32);
 
-            //Рабочий код
-            /*Glut.glutSolidSphere(0.75, 16, 16); // полигональная сфера
-            Gl.glTranslated(0, 0.6, 0);
-            Glut.glutSolidSphere(0.6, 16, 16); // полигональная сфера
-            Gl.glTranslated(0, 0.5, 0);
-            Glut.glutSolidSphere(0.5, 16, 16); // полигональная сфера
-            
-            //нос
-            Gl.glTranslated(0, 0, 0.4);
-            Gl.glRotated(90, 0, 0, 1);
-            
-            Glut.glutSolidCone(0.1, 0.4, 32, 32);
-
-            //глаза
-            Gl.glTranslated(0.2,0.2,-0.4);
-            Glut.glutSolidCylinder(0.05, 0.45, 32, 32);
-            Gl.glTranslated(0,-0.4,0);
-            Glut.glutSolidCylinder(0.05, 0.45, 32, 32);
-            Gl.glTranslated(-0.2, 0.2, 0);
-
-            //шляпа
-            Gl.glRotated(90, 0, 0.5, 0);
-            Gl.glTranslated(0, 0, 0.35);
-            Glut.glutSolidCylinder(0.6, 0.1, 32, 32);
-            Glut.glutSolidCylinder(0.4, 0.6, 32, 32);
-
-            //платформа
-            Gl.glTranslated(0, -1, -2.15);
-            Glut.glutSolidCylinder(1.8, 0.1, 32, 32);
-
-            Gl.glTranslated(1, -0.5, 0);
-
-            //ёлка
-            Glut.glutSolidCone(0.65, 1, 32, 32);
-            Gl.glTranslated(0,0,0.8);
-            Glut.glutSolidCone(0.45, 0.5, 32, 32);
-            Gl.glTranslated(0, 0, 0.4);
-            Glut.glutSolidCone(0.25, 0.3, 32, 32);
-            Gl.glTranslated(0, 0, 0.2);
-            Glut.glutSolidCone(0.05, 0.3, 32, 32);
-
-            Gl.glTranslated(-1.5, -0.5, -1.4);
-            Glut.glutSolidCone(0.65, 1, 32, 32);
-            Gl.glTranslated(0, 0, 0.8);
-            Glut.glutSolidCone(0.45, 0.5, 32, 32);*/
-
-            //Glut.glutSolidCylinder(1, 2, 32, 32);
-            //Glut.glutSolidCube(2);
-
-            //Glut.glutSolidCone(2, 3, 32, 32);
-
-            //Glut.glutSolidTorus(0.2, 2.2, 32, 32);
-
             // возвращаем состояние матрицы
             Gl.glPopMatrix();
             // завершаем рисование
